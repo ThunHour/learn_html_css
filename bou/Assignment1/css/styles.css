@@ -1,0 +1,380 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+
+nav{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(10, 207, 241);
+    font-weight: bold;
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin: 50px
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(10, 207, 241);
+}
+ul li:hover{
+    border-bottom: rgb(10, 207, 241) 2px solid;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-size: 1.4rem;
+    margin: top 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    color: black;
+}
+
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ef476f;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;	
+}
+
+#hero {
+    background-image: url(../images/battambang.JPG);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+.navbar ul{
+margin-left: 50%;
+
+}
+.navbar ul li a:hover{
+    color: #ef476f;
+    
+    }
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+#hero h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: white;
+}
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 ;
+    padding: 0 50px;
+    justify-content:flex-start;
+}
+
+.cta:hover {
+	color: white;
+	background-color: #ef476f;
+}
+
+/* About section */
+#about{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/road3battambang..jfif); 
+    background-size: cover;
+    position: relatiive;
+    z-index: 1;
+    
+}
+.about container span{
+    font-weight: bold;
+}
+#about::after {
+    content:'';
+    position:absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: -1;
+   
+}
+#about p{
+    display: block;
+    width: fit-content;
+    color: white;
+    font-size:2rem;
+    position: relative;
+    font-weight: bold;
+}
+
+about container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+	padding: 100px 20px;
+    max-width: 1200px;
+}
+
+
+.about .section-title{
+    text-align: center;
+}
+
+
+
+/* End About Section */
+
+/* Projects section */
+#projects .projects {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+    width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+    width: 100%;
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+/* End Projects section */
+
+
+
+#services .services{
+    flex-direction: column;
+    text-align:center;
+    max-width: 1500px;
+    margin: 0;
+    padding:100px 0;
+
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter: spacing 2rem;
+    text-align: center;
+}
+
+.section-title span{
+   color: #ef476f;
+}
+
+.service-top p{
+    font-size: 1.4rem;
+    margin: top 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    color: black;
+}
+
+#services .service-bottom {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width:1250px;
+}
+
+.food {
+    padding-top:100px;
+    margin-top:74px;
+}
+ 
+.cardfood{
+    width: 25%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+    margin-left: 60px;
+    background-color:#DFE0DF;
+}
+
+.titlefood h1 {
+margin-top: 10px;
+margin-left: 10px;
+
+}
+
+
+
+.imagefood img{
+height: 200px;
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+.titlefood{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+.desfood{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+.foodh1{
+    text-shadow: 1px 1px 10px #ffffff;
+    font-size: 60px;
+}
+
+
+
+
+/* Footer */
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+/* End Footer */

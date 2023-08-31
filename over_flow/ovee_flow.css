@@ -1,0 +1,7 @@
+.message{
+    width: 150px;
+    height: 200px;
+    font-size:  30px;
+    background-color: aqua;
+    overflow:auto;
+}

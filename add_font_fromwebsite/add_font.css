@@ -1,0 +1,16 @@
+.body {
+    background-color:gray;
+
+}
+.title{
+    background-color:beige;
+}
+.main{
+    background-color: blueviolet;
+    width: 100vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.footer{
+    background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
+}

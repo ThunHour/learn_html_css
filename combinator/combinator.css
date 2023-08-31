@@ -1,0 +1,18 @@
+.main p {
+    font-size:100px;
+    /* space use for select all element of parent */
+}
+.div > h1{
+    background-color:blue;
+}
+.parent-div ~ p{
+    background-color:aqua;
+    /* ~ use for select all element of sibiling or all element that we mention after web */
+}
+.parent-div > p{
+    background-color:chartreuse;
+    /* > use for select all element of children */
+}
+.parent-div +p{
+    background-color:yellow;
+}

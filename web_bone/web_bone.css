@@ -1,0 +1,144 @@
+.header{
+    height: 200px;
+    border:10px solid red;
+    background-color:greenyellow;
+
+}
+.header .title{
+    text-align: center;
+}
+.main{
+    text-align: center;
+    border:5px solid palevioletred;
+    background-color: aqua;
+    height: 568px;
+}
+.nav{
+    top:0px;
+    position:sticky;
+    height: 26px;
+    border: 5px solid black;
+    background-color:paleturquoise
+}
+.nav>div{
+    position: absolute;
+    display:inline;
+}
+.nav .Home{
+    left: 40.5%;
+    border:2px solid orchid;
+}
+.nav .Content{
+    left: 45.5%;
+    border:2px solid orange;
+}
+.nav .about{
+    left: 51.3%;
+    border:2px solid blue;
+}
+.nav .contact{
+    left: 56.5%;
+    border:2px solid purple;
+}
+.main .aside{
+    background-color:rebeccapurple;
+    width: 30%;
+    height: 500px;
+    float: right;
+    border: 5px solid green;
+}
+.box1{
+    background-color:chartreuse;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 300px;
+    height:120px;
+}
+.box2{
+    background-color:chartreuse;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 300px;
+    height:120px;
+}
+.box3{
+    background-color:chartreuse;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 300px;
+    height:120px;
+}
+.main .section{
+    border:5px solid blue;
+    width:68.4%;
+    float: left;
+    height: 500px;
+    background-color:gold;
+}
+.upper{
+    width:860px;
+    height: 180px;
+}
+.upper .content1{
+    position: relative;
+    display: inline;
+    background-color:gray;
+    padding-left:100px;
+    padding-right : 100px;
+    padding-top:60px;
+    padding-bottom:60px;
+    top:110px;
+    right: 50px;
+
+}
+.upper .content2{
+    position: relative;
+    background-color:gray;
+    text-align: center;
+    padding-left:90px;
+    padding-right :90px;
+    padding-top:60px;
+    padding-bottom:60px;
+    display: inline;
+    top:110px;
+    left:40px  
+}
+.lower{
+    width:860px;
+    height: 180px;
+}
+
+.lower .content3{
+    position: relative;
+    background-color:gray;
+    text-align: center;
+    padding-left:98px;
+    padding-right :98px;
+    padding-top:60px;
+    padding-bottom:60px;
+    display: inline;
+    top:135px;
+    right: 49px; 
+ 
+}
+.lower .content4{
+    position: relative;
+    background-color:gray;
+    text-align: center;
+    padding-left:94px;
+    padding-right :94px;
+    padding-top:60px;
+    padding-bottom:60px;
+    display: inline;
+    top:135px;
+    left: 39px;
+}
+.footer{
+    height: 100px;
+    text-align: center;
+    background-color:dimgray;
+    border:5px solid orange;
+}

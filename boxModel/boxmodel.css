@@ -1,0 +1,26 @@
+.home{
+    display: inline;
+    border: red 5px solid ;
+}
+.content{
+    display: inline;
+    border:greenyellow 5px solid ;
+}
+.about{
+    display: inline;
+    border: navajowhite 5px solid ;
+}
+.contact{
+    display: inline;
+    border:black 5px solid ;
+}
+.ad{
+    margin: 10px;
+    padding: 10px;
+    top: 35px;
+    border:blue 5px solid ;
+    position:absolute;
+    border-radius:100px;
+    /* border radius use for make boder to be cycle */
+
+}
